@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Chocolate Cake",
+      "image": "chocolate-cake.jpg",
+      "description": "A delicious chocolate cake made with the finest ingredients.",
+      "price": 25
+    },
+    {
+      "id": 2,
+      "name": "Fruit Cake",
+      "image": "fruit-cake.jpg",
+      "description": "A fresh fruit cake made with seasonal fruits and light sponge.",
+      "price": 20
+    },
+    {
+      "id": 3,
+      "name": "Custom Cake",
+      "image": "custom-cake.jpg",
+      "description": "Design your own cake with various flavors and toppings.",
+      "price": 40
+    }
+  ]
+  

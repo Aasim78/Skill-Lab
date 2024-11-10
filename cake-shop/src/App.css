@@ -1,0 +1,213 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  height:50px
+}
+.cake-category img {
+  width: 100%;      /* Make the image responsive */
+  max-width: 300px; /* Optional: limit the maximum size */
+  height: auto;     /* Maintain aspect ratio */
+  border-radius: 8px;
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.homepage {
+  text-align: center;
+  color: #333;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #fff;
+  padding: 40px 20px;
+}
+
+.hero-image {
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Cake Categories Section */
+.categories {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.categories h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.category-list {
+  display: flex;            /* Flexbox to align items in a row */
+  justify-content: space-around; /* Space out the items evenly */
+  flex-wrap: wrap;          /* Allow wrapping when the screen is too small */
+  gap: 20px;                /* Add space between items */
+}
+
+.category-item {
+  width: 250px;             /* Set the width of each category item */
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.category-item:hover {
+  transform: scale(1.05);   /* Slightly scale the item on hover */
+}
+
+.category-image {
+  width: 100%;              /* Ensure the image fills the container */
+  height: auto;             /* Maintain aspect ratio */
+  border-radius: 10px;
+  max-width: 200px;         /* Limit max width */
+  margin-bottom: 10px;
+}
+
+.category-item h4 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.category-item p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.view-details {
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #ff8c00;
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-details:hover {
+  background-color: #e07b00;
+}
+
+/* Responsive Layout: Smaller screen sizes */
+@media (max-width: 768px) {
+  .category-list {
+    flex-direction: column; /* Stack the items vertically on small screens */
+    align-items: center;     /* Center align items */
+  }
+  
+  .category-item {
+    width: 90%;              /* Make items take more width on small screens */
+    margin-bottom: 20px;     /* Add space between the stacked items */
+  }
+}
+/* Cake Categories Page Layout */
+.cake-categories {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cake-categories h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.category-grid {
+  display: flex;                /* Use flexbox for the grid layout */
+  flex-wrap: wrap;              /* Allow items to wrap to the next line */
+  justify-content: space-around; /* Distribute space evenly between items */
+  gap: 20px;                    /* Add space between the items */
+  margin-top: 20px;
+}
+
+.category-grid .cake-category {
+  width: 250px;                 /* Set width of each cake item */
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.category-grid .cake-category:hover {
+  transform: scale(1.05);       /* Slight zoom effect when hovering */
+}
+
+.category-grid .cake-category img {
+  width: 100%;                  /* Make sure the image fills the container */
+  height: auto;                 /* Maintain aspect ratio */
+  border-radius: 10px;
+  max-width: 200px;             /* Limit the width of images */
+  margin-bottom: 10px;
+}
+
+.category-grid .cake-category h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.category-grid .cake-category p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Responsive layout: For smaller screens, stack the items vertically */
+@media (max-width: 768px) {
+  .category-grid {
+    flex-direction: column;   /* Stack items vertically on small screens */
+    align-items: center;       /* Center items */
+  }
+
+  .category-grid .cake-category {
+    width: 80%;                /* Increase width on smaller screens */
+    margin-bottom: 20px;       /* Add space between items */
+  }
+}
+
